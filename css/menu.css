@@ -1,0 +1,85 @@
+@font-face {
+        font-family: "RedShell-font";
+        src: url('../font/Aquawax Light.ttf') format('truetype');       
+        }
+
+
+.row {
+      max-width: 100%; }
+  
+.menu {
+      height: 6.8125rem; 
+      background-color: #fff;
+      /*padding: 1.5rem 10rem;*/
+      height: auto; 
+	  }
+.menu  .name  img{
+      text-align: right;
+      padding-top: -3em ;
+
+  }
+  .menu .inline-list {
+      padding: 2rem 0rem 2rem 0rem;
+     /* text-align: center; */
+	  }
+
+  .menu .inline-list li {
+      float: none;
+      display: inline-block; }
+
+  .menu .inline-list a {
+      color: #000;
+      padding-bottom: 0.5rem; }
+
+  .menu .inline-list a:hover {
+      color: #DB2E42;
+      transition: all .3s ease-in-out; }
+
+  .menu .inline-list .active a {
+      color: #DB2E42; }
+
+
+  @media only screen and (min-width: 40.063em) {
+      .menu {
+         height: 5rem; }
+      .menu .inline-list {
+        float: center;
+        margin: 0 0 0 0rem; }
+      .menu a:hover {
+        border-bottom: 2px solid #DB2E42; } 
+      }
+
+
+  .name {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    color: #fff; }
+
+  @media only screen and (min-width: 40.063em) {
+    .name {
+      float: centred; } }
+	  
+/* red shell paketi button */
+ .button {
+    background-color: #FFFFFF;
+	text-align: center;
+	border-width: 2px;
+    border-color:#939393;
+    color: #000; 
+	
+
+	
+	}
+.button:hover, .button:focus {
+    background-color: #fff;
+	border-color:#AD1D21;
+	color: #AD1D21;
+}
+
+ .redbox  {
+   padding-top: 1rem;
+} 	  
+
+  

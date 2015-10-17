@@ -1,0 +1,339 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Shell | Dobro Došli</title>
+    
+	<link rel="stylesheet" href="../working-web-site/css/normalize.css">
+	<link rel="stylesheet" href="css/foundation.css" />
+	
+    <link href='https://fonts.googleapis.com/css?family=Baumans' rel='stylesheet' type='text/css'>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+	<!-- Castom settings -->
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/footer.css" /> 
+    <link rel="stylesheet" href="css/rs_paket.css" />
+    <link rel="stylesheet" href="css/team.css" />
+
+    <!-- JS-->
+	<script src="js/vendor/modernizr.js"></script>
+	<!-- Google maps -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script type='text/javascript'>
+    
+      function initialize() {
+          var mapOptions = {
+
+            center: new google.maps.LatLng(43.72461,20.69218),
+            zoom: 16,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          };
+          var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+      }
+
+      function loadScript() {
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize';
+          document.body.appendChild(script);
+      }
+
+
+
+      window.onload = loadScript;
+     </script>
+  </head>
+
+  <body> 
+<!-- /navigation --> 
+ 
+     <nav class="menu">
+	 <div class="row collapse">
+        <div class="large-2 large-right columns">	 
+		  <h1 class="name show-for-small-up hide-for-large-up"><img src="img/logo_uni.png" width="300px"></h1>
+          <h1 class="name show-for-large-up "><img  src="img/logom.png" ></h1>
+		  
+		</div>
+        <div class="large-7 small-text-center medium-text-center large-only-text-left columns">		
+          <ul class="inline-list">
+            <li class="active"><a href="index.html">Pocetna</a></li>
+            <li><a href="about.html">O Nama</a></li>
+            <li><a href="web_develop.html">Web Programiranje</a></li>
+            <li><a href="photo.html">Fotografija</a></li>
+            <li><a href="https://www.youtube.com/user/milenkovicstudio/videos">Video</a></li>
+            <li><a href="#footer">Kontakt</a></li>
+          </ul>
+		</div>
+        <div class="large-3 small-text-center large-only-text-left columns">
+         <div class="redbox">	
+          <a href="box.html" class="button radius">Red Shell Paketi</a>
+         </div>		   
+		</div>
+     </div>	    
+     </nav>  
+ <hr />
+ <!-- content -->
+ 
+     <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+           
+          <li class="name">
+            <h1>
+              <a href="#">
+                Top Bar Title
+              </a>
+            </h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+        </ul>
+     
+        <section class="top-bar-section">
+           
+          <ul class="right">
+            <li class="divider"></li>
+            <li class="has-dropdown">
+              <a href="#">Main Item 1</a>
+              <ul class="dropdown">
+                <li><label>Section Name</label></li>
+                <li class="has-dropdown">
+                  <a href="#" class="">Has Dropdown, Level 1</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Dropdown Options</a></li>
+                    <li><a href="#">Dropdown Options</a></li>
+                    <li><a href="#">Level 2</a></li>
+                    <li><a href="#">Subdropdown Option</a></li>
+                    <li><a href="#">Subdropdown Option</a></li>
+                    <li><a href="#">Subdropdown Option</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dropdown Option</a></li>
+                <li><a href="#">Dropdown Option</a></li>
+                <li class="divider"></li>
+                <li><label>Section Name</label></li>
+                <li><a href="#">Dropdown Option</a></li>
+                <li><a href="#">Dropdown Option</a></li>
+                <li><a href="#">Dropdown Option</a></li>
+                <li class="divider"></li>
+                <li><a href="#">See all ?</a></li>
+              </ul>
+            </li>
+            <li class="divider"></li>
+            <li><a href="#">Main Item 2</a></li>
+            <li class="divider"></li>
+            <li class="has-dropdown">
+              <a href="#">Main Item 3</a>
+              <ul class="dropdown">
+                <li><a href="#">Dropdown Option</a></li>
+                <li><a href="#">Dropdown Option</a></li>
+                <li><a href="#">Dropdown Option</a></li>
+                <li class="divider"></li>
+                <li><a href="#">See all ?</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </nav>
+     
+       
+     
+     
+       
+     
+      <div class="row">
+     
+         
+        <div class="large-9 columns">
+     
+          <h3>Get in Touch!</h3>
+          <p>We'd love to hear from you. You can either reach out to us as a whole and one of our awesome team members will get back to you, or if you have a specific question reach out to one of our staff. We love getting email all day <em>all day</em>.</p>
+     
+          <div class="section-container tabs" data-section>
+            <section class="section">
+              <h5 class="title"><a href="#panel1">Contact Our Company</a></h5>
+              <div class="content" data-slug="panel1">
+                <form>
+                  <div class="row collapse">
+                    <div class="large-2 columns">
+                      <label class="inline">Your Name</label>
+                    </div>
+                    <div class="large-10 columns">
+                      <input type="text" id="yourName" placeholder="Jane Smith">
+                    </div>
+                  </div>
+                  <div class="row collapse">
+                    <div class="large-2 columns">
+                      <label class="inline"> Your Email</label>
+                    </div>
+                    <div class="large-10 columns">
+                      <input type="text" id="yourEmail" placeholder="jane@smithco.com">
+                    </div>
+                  </div>
+                  <label>What's up?</label>
+                  <textarea rows="4"></textarea>
+                  <button type="submit" class="radius button">Submit</button>
+                </form>
+              </div>
+            </section>
+            <section class="section">
+              <h5 class="title"><a href="#panel2">Specific Person</a></h5>
+              <div class="content" data-slug="panel2">
+                <ul class="large-block-grid-5">
+                  <li><a href="/cdn-cgi/l/email-protection#cba6aaa78bb8aeb9aea5a2bfb2e5a9a8e5b9aea9"><img src="http://placehold.it/200x200&text=[person]">Mal Reynolds</a></li>
+                  <li><a href="/cdn-cgi/l/email-protection#6d1702082d1e081f0803041914430f0e431f080f"><img src="http://placehold.it/200x200&text=[person]">Zoe Washburne</a></li>
+                  <li><a href="/cdn-cgi/l/email-protection#fa909b83949fba899f889f94938e83d49899d4889f98"><img src="http://placehold.it/200x200&text=[person]">Jayne Cobb</a></li>
+                  <li><a href="/cdn-cgi/l/email-protection#99fdf6fad9eafcebfcf7f0ede0b7fbfab7ebfcfb"><img src="http://placehold.it/200x200&text=[person]">Simon Tam</a></li>
+                  <li><a href="/cdn-cgi/l/email-protection#02696b6e6e7b6d77756b766a6f7b6f6b6c6642716770676c6b767b2c60612c706760"><img src="http://placehold.it/200x200&text=[person]">River Tam</a></li>
+                  <li><a href="/cdn-cgi/l/email-protection#305c5551565f5e44585547595e5470435542555e5944491e52531e425552"><img src="http://placehold.it/200x200&text=[person]">Hoban Washburne</a></li>
+                  <li><a href="/cdn-cgi/l/email-protection#3e5c5151557e4d5b4c5b50574a47105c5d104c5b5c"><img src="http://placehold.it/200x200&text=[person]">Shepherd Book</a></li>
+                  <li><a href="/cdn-cgi/l/email-protection#b5ded9d0d0f5c6d0c7d0dbdcc1cc9bd7d69bc7d0d7"><img src="http://placehold.it/200x200&text=[person]">Kaywinnet Lee Fry</a></li>
+                  <li><a href="/cdn-cgi/l/email-protection#31585f504350715644585d551f525e5c411f505d5d"><img src="http://placehold.it/200x200&text=[person]">Inarra Serra</a></li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+     
+         
+     
+     
+         
+     
+     
+        <div class="large-3 columns">
+          <h5>Map</h5>
+           
+          <p>
+            <a href="" data-reveal-id="mapModal"><img src="http://placehold.it/400x280"></a><br/>
+            <a href="" data-reveal-id="mapModal">View Map</a>
+          </p>
+          <p>
+            123 Awesome St.<br/>
+            Barsoom, MA 95155
+          </p>
+        </div>
+         
+      </div>
+     
+
+     
+      <div class="reveal-modal" id="mapModal">
+        <h4>Where We Are</h4>
+        <p><img src="http://placehold.it/800x600"/></p>
+     
+         
+        <a href="#" class="close-reveal-modal">×</a>
+      </div>
+
+ <!-- Our Team -->
+              <!-- this adds Foundation Icon Fonts!! -->          
+              <div class="row"> <hr />
+                <h2 style="color: #DB2E42; font: 30px 'RedShell-font',serif;">Tim</h2>
+                <div class="medium-4 columns">
+                  <div class="profile-card">
+                    <img src="img/tim/seka.png" alt="">
+                    <div class="profile-info">
+                      <h4 class="subheader">Irvana Milenkovic</h4>
+                      <p>Ekonomista</p>
+                      <p><strong>Vlasnik i menadžer </strong></p>
+                      <br/>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="medium-4 columns">
+                  <div class="profile-card">
+                    <img src="img/tim/seja.png" alt="">
+                    <div class="profile-info">
+                      <h4 class="subheader">Jovana Komadina</h4>
+                      <p>Ekonomista</p>
+                      <p><strong>Web Dizajn, Video Montaža, Retuš fotografija</strong></p>
+                       
+                    </div>
+                  </div>
+                </div>
+                <div class="medium-4 columns">
+                  <div class="profile-card">
+                    <img src="img/tim/nenad.png" alt="">
+                    <div class="profile-info">
+                      <h4 class="subheader">Nenad Milenkovic</h4>
+                      <p>Spec. ing. elek.racunarstva</p>
+                      <p><strong>Ruby on Rails, PHP(OOP), Photography<strong></p> 
+                     <br/>
+                    </div>
+                  </div>
+                </div>
+              </div><hr />
+
+    <!-- Lokacija -->
+
+            <!--Tab Layout Content--> 
+            <div class="tabs-content">      
+                <div class="content active" id="panel-details"></div>
+
+                <div class="content " id="map">
+                    <p>Red Shell Lokacija: ul Heroja Maricica, 36000 Kraljevo, R. Srbija</p>
+                    <div id="map-canvas" style="width: 100%; height: 480px;"> </div>
+                </div>
+             </div>
+
+             <dl class="tabs" data-tab>
+                    <dd class="active"><a href="#panel-details">Podaci</a></dd>
+                    <dd id= "mapTab" class="map_tab" ><a href="#map"  onclick="loadScript();">Red Shell Lokacija </a></dd>
+             </dl>
+    </main> 
+    <!-- Footer with contact -->
+     <a name="footer"></a>
+            <footer class="footer"><hr/>
+              <div class="row">
+                <div class="small-12 medium-6 large-5 columns">
+                  <p class="logo text-left"><img src="img/logo_cb_belo.png" width="400"></p> 
+
+                  <p class="footer-links">  
+                                                  
+                    <a href="web_develop.html">Web Programiranje</a>
+                    <a href="photo.html">Fotografija</a>
+                    <a href="https://www.youtube.com/user/milenkovicstudio/videos">Video</a>
+                    <a href="box.html">Red Shell Paketi</a>
+                  </p>
+                  <p class="copywrite">Copywrite Red Shell © 2015</p>
+                </div>
+                <div class="small-12 medium-6 large-4 columns">
+                  <ul class="contact">
+                    <li><p><i class="fi-torso-female"></i>Irvana Milenkovic pr.</p></li>
+                    <li><p><i class="fi-address-book"></i>ul Heroja Maricica, 36000 Kraljevo</p></li>
+                    <li><p><i class="fi-book-bookmark"></i> PIB: 109075395 <br/> Maticni broj: 63905399</p></li>
+                    <li><p><i class="fi-telephone"></i>+381 36 312 972 <br/> Mob: +381 69 77 89 72</p></li>
+                    <li><p><i class="fi-clock"></i>Radno Vreme od Ponedeljak do Petka:<br/> 08:00 do 16:00 h</p></li>
+                    <li><p><i class="fi-mail"></i>redshell.srbija@gmail.com</p></li>
+                  </ul>
+                </div>
+                <div class="small-12 medium-12 large-3 columns">
+                  <p class="about">O Red Shell-u</p>
+                  <p class="about subheader">Postanite deo našeg tima i ucinicemo da vaš rad ili usluge budu prikazani na najbolji nacin.</p>
+                  <ul class="inline-list social">
+                    <a href="#"><i class="fi-social-flickr"></i></a>
+                    <a href="#"><i class="fi-social-facebook"></i></a>
+                    <a href="#"><i class="fi-social-twitter"></i></a>
+                    <a href="#"><i class="fi-social-linkedin"></i></a>
+                    <a href="#"><i class="fi-social-google-plus"></i></a>
+                  </ul>
+                </div>
+              </div>
+            </footer>
+    <!-- END -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.interchange.js"></script>
+    <script>
+      $(document).foundation({
+        orbit: {
+		     slide_number: false
+		      }
+		});
+    </script>
+
+  </body>
+</html>
